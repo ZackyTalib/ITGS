@@ -6,14 +6,17 @@ const productCategories = {
 
 switch(window.location.href.split("/")[4]){
     case "indobatik":
+        document.title = "Mari - " + "Indonesian Batik";
         document.getElementById("categoryTitle").innerHTML = "Indonesian Batik";
         loadProductCategory(window.location.href.split("/")[4]);
         break;
     case "stylebatik":
+        document.title = "Mari - " + "Peranakan Style Batik";
         document.getElementById("categoryTitle").innerHTML = "Peranakan Style Batik";
         loadProductCategory(window.location.href.split("/")[4]);
         break;
     case "modern":
+        document.title = "Mari - " + "Modern Design";
         document.getElementById("categoryTitle").innerHTML = "Modern Design";
         loadProductCategory(window.location.href.split("/")[4]);
         break;
