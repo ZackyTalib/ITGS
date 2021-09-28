@@ -1,0 +1,38 @@
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.categoryList {
+    display: flex;
+    justify-content: center;
+}
+
+.category {
+    background-color: rgba(82, 214, 214, .8);
+    text-align: center;
+    width: 15rem;
+    padding: 2rem 0;
+    border: 2px solid rgba(52, 152, 219, 0.5);
+    color: white;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.category:hover {
+    background-color: rgba(82, 214, 214, 1);
+}
+
+.category p {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-weight: 500;
+}
+
+.category + .category {
+    margin-left: 2.5rem;
+}

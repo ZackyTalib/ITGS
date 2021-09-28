@@ -1,0 +1,28 @@
+main {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h1 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+    color: #52d6d6;
+}
+
+.main-section {
+    display: flex;
+    margin: 2rem 7.5rem;
+    margin-bottom: 0;
+}
+
+.main-section img {
+    width: 20rem;
+    height: 20rem;
+}
+
+.main-section p {
+    margin-left: 2rem;
+}

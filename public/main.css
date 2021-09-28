@@ -1,0 +1,55 @@
+main {
+    margin-top: 2.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h1 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+    color: #52d6d6;
+}
+
+.image-slider {
+    width: 15rem; 
+    margin-top: 2.5rem;
+}
+
+.image-slider > img {
+    width: 15rem; 
+    height: 15rem;
+    -webkit-animation: fadein 3s ease; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 3s ease; /* Firefox < 16 */
+     -ms-animation: fadein 3s ease; /* Internet Explorer */
+      -o-animation: fadein 3s ease; /* Opera < 12.1 */
+         animation: fadein 3s ease;
+}
+
+.image-slider .slider-dots {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.image-slider .slider-dots img {
+    cursor: pointer;
+    width: 1rem;
+    height: 1rem;
+    filter: invert(84%) sepia(8%) saturate(151%) hue-rotate(161deg) brightness(93%) contrast(90%);
+}
+
+.image-slider .slider-dots img + img {
+    margin-left: 0.4rem;
+}
+
+.image-slider .slider-dots .selected {
+    filter: invert(22%) sepia(3%) saturate(2673%) hue-rotate(135deg) brightness(105%) contrast(79%);
+}
+
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}

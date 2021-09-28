@@ -4,55 +4,59 @@
 <head>
     <title>ITGS Project</title>
     <link rel="stylesheet" href="/public/index.css">
+    <link rel="stylesheet" href="/public/main.css">
     <script src="/public/index.js"></script>
+    <script src="/public/main.js"></script>
 </head>
 
 <body>
-    <header>
-        <img class="logo" src="/public/logo.jpeg">
-    </header>
-    <nav>
-        <div class="navitem">
-            <a href="#">Home</a>
-        </div>
-        <div class="navitem">
-            <a href="#">Products</a>
-            <div class="dropdown hidden">
-                <div><a href="#">Indonesian batik</a></div>
-                <div><a href="#">Peranakan style batik</a></div>
-                <div><a href="#">Modern designs</a></div>
+    <div class="anchorTop">
+        <header>
+            <img class="logo" src="/public/logo.jpeg">
+        </header>
+        <nav>
+            <div class="navitem" onclick="navItemClicked(this)">
+                <a href="/">Home</a>
             </div>
-        </div>
-        <div class="navitem">
-            <a href="#">Contact</a>
-        </div>
-        <div class="navitem">
-            <a href="#">About Us</a>
-        </div>
-    </nav>
-    <main>
-        <h1>Best Selling Products</h1>
-        <div class="image-slider">
-            <img id="img0" src="http://benzol4.com/wp-content/uploads/2018/11/blog-ph-1.jpg">
-            <img id="img1" src="http://benzol4.com/wp-content/uploads/2018/11/blog-ph-1.jpg" style="display: none;">
-            <img id="img2" src="http://benzol4.com/wp-content/uploads/2018/11/blog-ph-1.jpg" style="display: none;">
-            <img id="img3" src="http://benzol4.com/wp-content/uploads/2018/11/blog-ph-1.jpg" style="display: none;">
-            <img id="img4" src="http://benzol4.com/wp-content/uploads/2018/11/blog-ph-1.jpg" style="display: none;">
-            <img id="img5" src="http://benzol4.com/wp-content/uploads/2018/11/blog-ph-1.jpg" style="display: none;">
-            <div class="slider-dots">
-                <img id="btn0" src="/public/black-circle.svg" onclick="sliderClicked(this)" class="selected">
-                <img id="btn1" src="/public/black-circle.svg" onclick="sliderClicked(this)">
-                <img id="btn2" src="/public/black-circle.svg" onclick="sliderClicked(this)">
-                <img id="btn3" src="/public/black-circle.svg" onclick="sliderClicked(this)">
-                <img id="btn4" src="/public/black-circle.svg" onclick="sliderClicked(this)">
-                <img id="btn5" src="/public/black-circle.svg" onclick="sliderClicked(this)">
+            <div class="navitem" onclick="navItemClicked(this)">
+                <a href="/products">Products</a>
+                <div class="dropdown hidden">
+                    <div><a href="/products/indobatik">Indonesian batik</a></div>
+                    <div><a href="/products/stylebatik">Peranakan style batik</a></div>
+                    <div><a href="/products/modern">Modern designs</a></div>
+                </div>
             </div>
-        </div>
-    </main>
+            <div class="navitem" onclick="navItemClicked(this)">
+                <a href="/contact">Contact</a>
+            </div>
+            <div class="navitem" onclick="navItemClicked(this)">
+                <a href="/aboutus">About Us</a>
+            </div>
+        </nav>
+        <main>
+            <h1>Best Selling Products</h1>
+            <div class="image-slider">
+                <img id="img0" src="http://benzol4.com/wp-content/uploads/2018/11/blog-ph-1.jpg">
+                <img id="img1" src="http://benzol4.com/wp-content/uploads/2018/11/blog-ph-1.jpg" style="display: none;">
+                <img id="img2" src="http://benzol4.com/wp-content/uploads/2018/11/blog-ph-1.jpg" style="display: none;">
+                <img id="img3" src="http://benzol4.com/wp-content/uploads/2018/11/blog-ph-1.jpg" style="display: none;">
+                <img id="img4" src="http://benzol4.com/wp-content/uploads/2018/11/blog-ph-1.jpg" style="display: none;">
+                <img id="img5" src="http://benzol4.com/wp-content/uploads/2018/11/blog-ph-1.jpg" style="display: none;">
+                <div class="slider-dots">
+                    <img id="btn0" src="/public/black-circle.svg" onclick="sliderClicked(this)" class="selected">
+                    <img id="btn1" src="/public/black-circle.svg" onclick="sliderClicked(this)">
+                    <img id="btn2" src="/public/black-circle.svg" onclick="sliderClicked(this)">
+                    <img id="btn3" src="/public/black-circle.svg" onclick="sliderClicked(this)">
+                    <img id="btn4" src="/public/black-circle.svg" onclick="sliderClicked(this)">
+                    <img id="btn5" src="/public/black-circle.svg" onclick="sliderClicked(this)">
+                </div>
+            </div>
+        </main>
+    </div>
     <footer>
         <div>
             <p>Find Us On</p>
-            <a href="#"><img src="/public/instalogo.png"></a>
+            <a href="https://www.instagram.com/m4ri_the_indonesian_art_mask/"><img src="/public/instalogo.png"></a>
         </div>
         <p>Copyright © 2021 All Rights Reserved</p>
     </footer>

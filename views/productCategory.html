@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>ITGS Project</title>
+    <link rel="stylesheet" href="/public/index.css">
+    <link rel="stylesheet" href="/public/category.css">
+    <script src="/public/index.js"></script>
+</head>
+
+<body>
+    <div class="anchorTop">
+        <header>
+            <img class="logo" src="/public/logo.jpeg">
+        </header>
+        <nav>
+            <div class="navitem" onclick="navItemClicked(this)">
+                <a href="/">Home</a>
+            </div>
+            <div class="navitem" onclick="navItemClicked(this)">
+                <a href="/products">Products</a>
+                <div class="dropdown hidden">
+                    <div><a href="/products/indobatik">Indonesian batik</a></div>
+                    <div><a href="/products/stylebatik">Peranakan style batik</a></div>
+                    <div><a href="/products/modern">Modern designs</a></div>
+                </div>
+            </div>
+            <div class="navitem" onclick="navItemClicked(this)">
+                <a href="/contact">Contact</a>
+            </div>
+            <div class="navitem" onclick="navItemClicked(this)">
+                <a href="/aboutus">About Us</a>
+            </div>
+        </nav> 
+        <main>
+            <h1 id="categoryTitle"></h1>
+            <p>click the images below to expand:</p>
+            <div class="imageGroup">
+            </div>
+        </main>
+    </div>
+    <footer>
+        <div>
+            <p>Find Us On</p>
+            <a href="https://www.instagram.com/m4ri_the_indonesian_art_mask/"><img src="/public/instalogo.png"></a>
+        </div>
+        <p>Copyright © 2021 All Rights Reserved</p>
+    </footer>
+    <div class="overlay" onclick="overlayClicked()" style="display: none;">
+    </div>
+    <div class="imagePopup" style="display: none;">
+        <img id="imageDisplay" src="">
+        <img id="exitButton" onclick="overlayClicked()" src="https://cdn-icons-png.flaticon.com/512/1828/1828939.png">
+    </div>
+    <script src="/public/category.js"></script>
+</body>
+
+</html>
