@@ -9,10 +9,10 @@ const productCategories = {
         "/public/images/indobatik/Batik-7.JPG",
     ],
     "stylebatik": [
-        "/public/images/modern/Peranakan-1.JPG",
-        "/public/images/modern/Peranakan-2.JPG",
-        "/public/images/modern/Peranakan-3.JPG",
-        "/public/images/modern/Peranakan-4.jpg"
+        "/public/images/stylebatik/Peranakan-1.JPG",
+        "/public/images/stylebatik/Peranakan-2.JPG",
+        "/public/images/stylebatik/Peranakan-3.JPG",
+        "/public/images/stylebatik/Peranakan-4.jpg"
     ],
     "modern": [
         "/public/images/modern/Modern-1.JPG",
