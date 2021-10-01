@@ -21,6 +21,7 @@ main p {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0 2rem;
 }
 
 .imageGroup img {
