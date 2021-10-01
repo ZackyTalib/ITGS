@@ -1,24 +1,24 @@
 const productCategories = {
     "indobatik": [
-        "https://mail.google.com/mail/u/1?ui=2&ik=b8ed38c7e2&attid=0.1&permmsgid=msg-f:1712401473602519842&th=17c3ac114aef0322&view=att&disp=safe&realattid=f_ku81njx81",
-        "https://mail.google.com/mail/u/1?ui=2&ik=b8ed38c7e2&attid=0.2&permmsgid=msg-f:1712401473602519842&th=17c3ac114aef0322&view=att&disp=safe&realattid=f_ku81njxv3",
-        "https://mail.google.com/mail/u/1?ui=2&ik=b8ed38c7e2&attid=0.3&permmsgid=msg-f:1712401473602519842&th=17c3ac114aef0322&view=att&disp=safe&realattid=f_ku81njww0",
-        "https://mail.google.com/mail/u/1?ui=2&ik=b8ed38c7e2&attid=0.4&permmsgid=msg-f:1712401473602519842&th=17c3ac114aef0322&view=att&disp=safe&realattid=f_ku81njya4",
-        "https://mail.google.com/mail/u/1?ui=2&ik=b8ed38c7e2&attid=0.5&permmsgid=msg-f:1712401473602519842&th=17c3ac114aef0322&view=att&disp=safe&realattid=f_ku81njxl2",
-        "https://mail.google.com/mail/u/1?ui=2&ik=b8ed38c7e2&attid=0.6&permmsgid=msg-f:1712401473602519842&th=17c3ac114aef0322&view=att&disp=safe&realattid=f_ku81njyp5",
-        "https://mail.google.com/mail/u/1?ui=2&ik=b8ed38c7e2&attid=0.7&permmsgid=msg-f:1712401473602519842&th=17c3ac114aef0322&view=att&disp=safe&realattid=f_ku81njza6"
+        "/public/images/indobatik/Batik-1.JPG",
+        "/public/images/indobatik/Batik-2.JPG",
+        "/public/images/indobatik/Batik-3.JPG",
+        "/public/images/indobatik/Batik-4.JPG",
+        "/public/images/indobatik/Batik-5.JPG",
+        "/public/images/indobatik/Batik-6.JPG",
+        "/public/images/indobatik/Batik-7.JPG",
     ],
     "stylebatik": [
-        "https://mail.google.com/mail/u/1?ui=2&ik=b8ed38c7e2&attid=0.1&permmsgid=msg-f:1712401571541601276&th=17c3ac28188ecbfc&view=att&disp=safe&realattid=f_ku81puzt2",
-        "https://mail.google.com/mail/u/1?ui=2&ik=b8ed38c7e2&attid=0.2&permmsgid=msg-f:1712401571541601276&th=17c3ac28188ecbfc&view=att&disp=safe&realattid=f_ku81puzg1",
-        "https://mail.google.com/mail/u/1?ui=2&ik=b8ed38c7e2&attid=0.3&permmsgid=msg-f:1712401571541601276&th=17c3ac28188ecbfc&view=att&disp=safe&realattid=f_ku81pv063",
-        "https://mail.google.com/mail/u/1?ui=2&ik=b8ed38c7e2&attid=0.4&permmsgid=msg-f:1712401571541601276&th=17c3ac28188ecbfc&view=att&disp=safe&realattid=f_ku81puz00"
+        "/public/images/modern/Peranakan-1.JPG",
+        "/public/images/modern/Peranakan-2.JPG",
+        "/public/images/modern/Peranakan-3.JPG",
+        "/public/images/modern/Peranakan-4.jpg"
     ],
     "modern": [
-        "https://mail.google.com/mail/u/1?ui=2&ik=b8ed38c7e2&attid=0.1&permmsgid=msg-f:1712401510670264327&th=17c3ac19ec57e807&view=att&disp=safe&realattid=f_ku81opd12",
-        "https://mail.google.com/mail/u/1?ui=2&ik=b8ed38c7e2&attid=0.2&permmsgid=msg-f:1712401510670264327&th=17c3ac19ec57e807&view=att&disp=safe&realattid=f_ku81opdg3",
-        "https://mail.google.com/mail/u/1?ui=2&ik=b8ed38c7e2&attid=0.3&permmsgid=msg-f:1712401510670264327&th=17c3ac19ec57e807&view=att&disp=safe&realattid=f_ku81opc10",
-        "https://mail.google.com/mail/u/1?ui=2&ik=b8ed38c7e2&attid=0.4&permmsgid=msg-f:1712401510670264327&th=17c3ac19ec57e807&view=att&disp=safe&realattid=f_ku81opci1"
+        "/public/images/modern/Modern-1.JPG",
+        "/public/images/modern/Modern-2.jpg",
+        "/public/images/modern/Modern-3.JPG",
+        "/public/images/modern/Modern-4.JPG"
     ]
 }
 
